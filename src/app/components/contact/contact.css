@@ -1,0 +1,38 @@
+.contact ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-family: "Inter", sans-serif;
+}
+
+.contact-infos {
+    display: flex;
+    flex-direction: column;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 160px;
+}
+
+.contact-name {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.contact li {
+    list-style-type: none;
+}
+
+.contact button {
+    border-radius: 100%;
+    border: none;
+    background-color: transparent;
+}
+
+.contact img {
+    width: 24px;
+    height: 24px;
+}
