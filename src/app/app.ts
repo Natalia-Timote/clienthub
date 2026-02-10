@@ -39,19 +39,23 @@ export class App {
 
     filterByText: string = ''
 
+    private removeAccents(text: string): string {
+      return text.normalize("NFD").replace(/[\u0300-\u036f]/g, '');
+    }
+
     filterContactsByText (): ContactInfo[] {
       if(!this.filterByText) {
         return this.contacts;
       } else {
         return this.contacts.filter(contact => {
-          return contact.name.toLowerCase().includes(this.filterByText.toLowerCase())
+          return this.removeAccents(contact.name).toLowerCase().includes(this.removeAccents(this.filterByText).toLowerCase());
         })
       }
     }
 
     filterContactsByInitialLetter(letter: string) : ContactInfo[] {
       return this.filterContactsByText().filter(contact => {
-        return contact.name.toLowerCase().startsWith(letter)
+        return this.removeAccents(contact.name).toLowerCase().startsWith(this.removeAccents(letter).toLowerCase());
       })
     }
 }
