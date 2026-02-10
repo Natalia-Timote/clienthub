@@ -30,6 +30,12 @@ export class App {
     alphabet: string = 'abcdefghijklmnopqrstuvwxyz';
     contacts: ContactInfo[] = agenda.clients;
 
+    hasContactsWithLetter(letter: string): boolean {
+      return this.contacts.some(contact => 
+        contact.name.toLowerCase().startsWith(letter)
+      )
+    }
+
     filterContactsByInitialLetter(letter: string) : ContactInfo[] {
       return this.contacts.filter(contact => {
         return contact.name.toLowerCase().startsWith(letter)

@@ -1,12 +1,16 @@
 <app-container>
     <app-header></app-header>
+    <input type="search" placeholder="Digite para buscar">
     @for (letter of alphabet; track letter) {
+    @if (hasContactsWithLetter(letter)) {
     <app-separator>
         {{ letter }}
     </app-separator>
     @for (contact of filterContactsByInitialLetter(letter); track contact.id) {
-    <app-contact [name]="contact.name" [phone]="contact.phone" [enterprise]="contact.enterprise" [status]="contact.status">
+    <app-contact [name]="contact.name" [phone]="contact.phone" [enterprise]="contact.enterprise"
+        [status]="contact.status">
     </app-contact>
+    }
     }
     }
 </app-container>
