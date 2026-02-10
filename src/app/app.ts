@@ -17,10 +17,11 @@ interface ContactInfo {
 }
 
 import agenda from './agenda.json';
+import { FormsModule } from '@angular/forms';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, Container, Header, Separator, Contact],
+  imports: [RouterOutlet, Container, Header, Separator, Contact, FormsModule],
   templateUrl: './app.html',
   styleUrl: './app.css'
 })
@@ -31,13 +32,25 @@ export class App {
     contacts: ContactInfo[] = agenda.clients;
 
     hasContactsWithLetter(letter: string): boolean {
-      return this.contacts.some(contact => 
+      return this.filterContactsByText().some(contact => 
         contact.name.toLowerCase().startsWith(letter)
       )
     }
 
+    filterByText: string = ''
+
+    filterContactsByText (): ContactInfo[] {
+      if(!this.filterByText) {
+        return this.contacts;
+      } else {
+        return this.contacts.filter(contact => {
+          return contact.name.toLowerCase().includes(this.filterByText.toLowerCase())
+        })
+      }
+    }
+
     filterContactsByInitialLetter(letter: string) : ContactInfo[] {
-      return this.contacts.filter(contact => {
+      return this.filterContactsByText().filter(contact => {
         return contact.name.toLowerCase().startsWith(letter)
       })
     }
