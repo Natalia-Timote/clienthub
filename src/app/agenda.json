@@ -1,0 +1,404 @@
+{
+    "clients": [
+        {
+            "id": 1,
+            "name": "Alexandre Neves",
+            "email": "alexandre.neves@email.com",
+            "phone": "11999990045",
+            "status": "Cliente",
+            "enterprise": "AN Solutions",
+            "notes": "",
+            "createdAt": "2026-02-14"
+        },
+        {
+            "id": 2,
+            "name": "Aline Souza",
+            "email": "aline.souza@email.com",
+            "phone": "11999990015",
+            "status": "Em contato",
+            "enterprise": "AS Beauty",
+            "notes": "Interessada em pacote",
+            "createdAt": "2026-01-15"
+        },
+        {
+            "id": 3,
+            "name": "Ana Costa",
+            "email": "ana.costa@email.com",
+            "phone": "11999990003",
+            "status": "Cliente",
+            "enterprise": "AC Marketing",
+            "notes": "Contrato assinado",
+            "createdAt": "2026-01-03"
+        },
+        {
+            "id": 4,
+            "name": "André Pacheco",
+            "email": "andre.pacheco@email.com",
+            "phone": "11999990028",
+            "status": "Novo",
+            "enterprise": "AP Software",
+            "notes": "",
+            "createdAt": "2026-01-28"
+        },
+        {
+            "id": 5,
+            "name": "Bruna Carvalho",
+            "email": "bruna.carvalho@email.com",
+            "phone": "11999990046",
+            "status": "Novo",
+            "enterprise": "BC Estúdio",
+            "notes": "",
+            "createdAt": "2026-02-15"
+        },
+        {
+            "id": 6,
+            "name": "Bruno Azevedo",
+            "email": "bruno.azevedo@email.com",
+            "phone": "11999990010",
+            "status": "Cliente",
+            "enterprise": "BA Digital",
+            "notes": "Plano anual",
+            "createdAt": "2026-01-10"
+        },
+        {
+            "id": 7,
+            "name": "Caio Nunes",
+            "email": "caio.nunes@email.com",
+            "phone": "11999990030",
+            "status": "Cliente",
+            "enterprise": "CN Tecnologia",
+            "notes": "",
+            "createdAt": "2026-01-30"
+        },
+        {
+            "id": 8,
+            "name": "Camila Torres",
+            "email": "camila.torres@email.com",
+            "phone": "11999990011",
+            "status": "Novo",
+            "enterprise": "CT Moda",
+            "notes": "",
+            "createdAt": "2026-01-11"
+        },
+        {
+            "id": 9,
+            "name": "Carlos Mendes",
+            "email": "carlos.mendes@email.com",
+            "phone": "11999990004",
+            "status": "Novo",
+            "enterprise": "CM Engenharia",
+            "notes": "Indicação de cliente",
+            "createdAt": "2026-01-04"
+        },
+        {
+            "id": 10,
+            "name": "Daniel Freitas",
+            "email": "daniel.freitas@email.com",
+            "phone": "11999990012",
+            "status": "Em contato",
+            "enterprise": "DF Logística",
+            "notes": "Reunião marcada",
+            "createdAt": "2026-01-12"
+        },
+        {
+            "id": 11,
+            "name": "Débora Silveira",
+            "email": "debora.silveira@email.com",
+            "phone": "11999990027",
+            "status": "Cliente",
+            "enterprise": "DS Consultoria",
+            "notes": "",
+            "createdAt": "2026-01-27"
+        },
+        {
+            "id": 12,
+            "name": "Diego Fontes",
+            "email": "diego.fontes@email.com",
+            "phone": "11999990039",
+            "status": "Cliente",
+            "enterprise": "DF Digital",
+            "notes": "",
+            "createdAt": "2026-02-08"
+        },
+        {
+            "id": 13,
+            "name": "Eduardo Ramos",
+            "email": "eduardo.ramos@email.com",
+            "phone": "11999990016",
+            "status": "Novo",
+            "enterprise": "ER Construções",
+            "notes": "",
+            "createdAt": "2026-01-16"
+        },
+        {
+            "id": 14,
+            "name": "Elaine Dutra",
+            "email": "elaine.dutra@email.com",
+            "phone": "11999990048",
+            "status": "Cliente",
+            "enterprise": "ED Comunicação",
+            "notes": "",
+            "createdAt": "2026-02-17"
+        },
+        {
+            "id": 15,
+            "name": "Fábio Cunha",
+            "email": "fabio.cunha@email.com",
+            "phone": "11999990049",
+            "status": "Novo",
+            "enterprise": "FC Tech",
+            "notes": "",
+            "createdAt": "2026-02-18"
+        },
+        {
+            "id": 16,
+            "name": "Felipe Moreira",
+            "email": "felipe.moreira@email.com",
+            "phone": "11999990020",
+            "status": "Cliente",
+            "enterprise": "FM Solutions",
+            "notes": "",
+            "createdAt": "2026-01-20"
+        },
+        {
+            "id": 17,
+            "name": "Fernanda Rocha",
+            "email": "fernanda.rocha@email.com",
+            "phone": "11999990005",
+            "status": "Em contato",
+            "enterprise": "FR Design",
+            "notes": "Aguardando retorno",
+            "createdAt": "2026-01-05"
+        },
+        {
+            "id": 18,
+            "name": "Gustavo Henrique",
+            "email": "gustavo.h@email.com",
+            "phone": "11999990018",
+            "status": "Novo",
+            "enterprise": "GH Automação",
+            "notes": "",
+            "createdAt": "2026-01-18"
+        },
+        {
+            "id": 19,
+            "name": "Henrique Paiva",
+            "email": "henrique.paiva@email.com",
+            "phone": "11999990036",
+            "status": "Cliente",
+            "enterprise": "HP Engenharia",
+            "notes": "",
+            "createdAt": "2026-02-05"
+        },
+        {
+            "id": 20,
+            "name": "Igor Macedo",
+            "email": "igor.macedo@email.com",
+            "phone": "11999990026",
+            "status": "Novo",
+            "enterprise": "IM Tech",
+            "notes": "",
+            "createdAt": "2026-01-26"
+        },
+        {
+            "id": 21,
+            "name": "Juliana Martins",
+            "email": "juliana.martins@email.com",
+            "phone": "11999990009",
+            "status": "Novo",
+            "enterprise": "JM Arquitetura",
+            "notes": "Primeiro contato",
+            "createdAt": "2026-01-09"
+        },
+        {
+            "id": 22,
+            "name": "Julio Cesar",
+            "email": "julio.cesar@email.com",
+            "phone": "11999990037",
+            "status": "Novo",
+            "enterprise": "JC Serviços",
+            "notes": "",
+            "createdAt": "2026-02-06"
+        },
+        {
+            "id": 23,
+            "name": "Larissa Prado",
+            "email": "larissa.prado@email.com",
+            "phone": "11999990031",
+            "status": "Novo",
+            "enterprise": "LP Design",
+            "notes": "",
+            "createdAt": "2026-01-31"
+        },
+        {
+            "id": 24,
+            "name": "Leonardo Teixeira",
+            "email": "leonardo.teixeira@email.com",
+            "phone": "11999990022",
+            "status": "Em contato",
+            "enterprise": "LT Finance",
+            "notes": "Quer apresentação",
+            "createdAt": "2026-01-22"
+        },
+        {
+            "id": 25,
+            "name": "Lucas Almeida",
+            "email": "lucas.almeida@email.com",
+            "phone": "11999990006",
+            "status": "Novo",
+            "enterprise": "LA Consultoria",
+            "notes": "",
+            "createdAt": "2026-01-06"
+        },
+        {
+            "id": 26,
+            "name": "Marcelo Rios",
+            "email": "marcelo.rios@email.com",
+            "phone": "11999990032",
+            "status": "Em contato",
+            "enterprise": "MR Transportes",
+            "notes": "",
+            "createdAt": "2026-02-01"
+        },
+        {
+            "id": 27,
+            "name": "Mariana Rangel",
+            "email": "mariana.rangel@email.com",
+            "phone": "11999990023",
+            "status": "Cliente",
+            "enterprise": "MR Studio",
+            "notes": "",
+            "createdAt": "2026-01-23"
+        },
+        {
+            "id": 28,
+            "name": "Maria Silva",
+            "email": "maria.silva@email.com",
+            "phone": "11999990001",
+            "status": "Novo",
+            "enterprise": "MS Soluções",
+            "notes": "Contato via Instagram",
+            "createdAt": "2026-01-01"
+        },
+        {
+            "id": 29,
+            "name": "Michele Araujo",
+            "email": "michele.araujo@email.com",
+            "phone": "11999990042",
+            "status": "Cliente",
+            "enterprise": "MA Design",
+            "notes": "",
+            "createdAt": "2026-02-11"
+        },
+        {
+            "id": 30,
+            "name": "Natália Cruz",
+            "email": "natalia.cruz@email.com",
+            "phone": "11999990019",
+            "status": "Em contato",
+            "enterprise": "NC Studio",
+            "notes": "Revisando proposta",
+            "createdAt": "2026-01-19"
+        },
+        {
+            "id": 31,
+            "name": "Patrícia Nogueira",
+            "email": "patricia.nogueira@email.com",
+            "phone": "11999990007",
+            "status": "Cliente",
+            "enterprise": "PN Eventos",
+            "notes": "Fechamento rápido",
+            "createdAt": "2026-01-07"
+        },
+        {
+            "id": 32,
+            "name": "Paula Guedes",
+            "email": "paula.guedes@email.com",
+            "phone": "11999990025",
+            "status": "Em contato",
+            "enterprise": "PG Marketing",
+            "notes": "",
+            "createdAt": "2026-01-25"
+        },
+        {
+            "id": 33,
+            "name": "Pedro Guimarães",
+            "email": "pedro.guimaraes@email.com",
+            "phone": "11999990043",
+            "status": "Novo",
+            "enterprise": "PG Sistemas",
+            "notes": "",
+            "createdAt": "2026-02-12"
+        },
+        {
+            "id": 34,
+            "name": "Rafael Lima",
+            "email": "rafael.lima@email.com",
+            "phone": "11999990008",
+            "status": "Em contato",
+            "enterprise": "RL Sistemas",
+            "notes": "Quer desconto",
+            "createdAt": "2026-01-08"
+        },
+        {
+            "id": 35,
+            "name": "Renata Pires",
+            "email": "renata.pires@email.com",
+            "phone": "11999990013",
+            "status": "Cliente",
+            "enterprise": "RP Consultoria",
+            "notes": "",
+            "createdAt": "2026-01-13"
+        },
+        {
+            "id": 36,
+            "name": "Renan Oliveira",
+            "email": "renan.oliveira@email.com",
+            "phone": "11999990050",
+            "status": "Em contato",
+            "enterprise": "RO Digital",
+            "notes": "",
+            "createdAt": "2026-02-19"
+        },
+        {
+            "id": 37,
+            "name": "Rita Fonseca",
+            "email": "rita.fonseca@email.com",
+            "phone": "11999990044",
+            "status": "Em contato",
+            "enterprise": "RF Eventos",
+            "notes": "",
+            "createdAt": "2026-02-13"
+        },
+        {
+            "id": 38,
+            "name": "Rodrigo Cunha",
+            "email": "rodrigo.cunha@email.com",
+            "phone": "11999990024",
+            "status": "Novo",
+            "enterprise": "RC Serviços",
+            "notes": "",
+            "createdAt": "2026-01-24"
+        },
+        {
+            "id": 39,
+            "name": "Sergio Monteiro",
+            "email": "sergio.monteiro@email.com",
+            "phone": "11999990047",
+            "status": "Em contato",
+            "enterprise": "SM Consultoria",
+            "notes": "",
+            "createdAt": "2026-02-16"
+        },
+        {
+            "id": 40,
+            "name": "Simone Barros",
+            "email": "simone.barros@email.com",
+            "phone": "11999990040",
+            "status": "Novo",
+            "enterprise": "SB Consultoria",
+            "notes": "",
+            "createdAt": "2026-02-09"
+        }
+    ]
+}

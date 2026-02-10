@@ -8,7 +8,7 @@ import { Component, Input } from '@angular/core';
 })
 export class Contact {
   @Input() name: string = ''
-  @Input() cellPhone: string = ''
+  @Input() phone: string = ''
   @Input() enterprise: string = ''
   @Input() status: string = ''
 }
