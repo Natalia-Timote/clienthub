@@ -68,13 +68,13 @@ Uma prévia das principais funcionalidades da aplicação:
 
 Exibição dinâmica dos contatos organizados por letra inicial, com separadores automáticos e ocultação de letras sem registros.
 
-<img src="/public/clienthub-home.png" alt="Listagem de clientes no ClientHub" width="350"/>
+<img src="/public/clienthub-home.png" alt="Listagem de clientes no ClientHub" width="400"/>
 
 **🔎 Busca Inteligente**
 
 Campo de busca com normalização de acentuação, permitindo encontrar contatos independentemente do uso de acentos ou letras maiúsculas/minúsculas.
 
-<img src="/public/clienthub-search.png" alt="Busca inteligente no ClientHub" width="350"/>
+<img src="/public/clienthub-search.png" alt="Busca inteligente no ClientHub" width="400"/>
 
 **🌐 Acesse o Projeto Online**
 
