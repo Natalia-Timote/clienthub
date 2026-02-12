@@ -1,59 +1,93 @@
-# Clienthub
+## 🔷 ClientHub
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.2.
+**ClientHub** é uma aplicação web desenvolvida com **Angular** para organização e visualização de clientes, com foco em componentização, organização de dados e experiência do usuário.
+O projeto permite **buscar contatos de forma inteligente (com suporte a acentuação)**, agrupá-los automaticamente por letra inicial e exibir informações complementares como **empresa e status do contato**, aproximando a aplicação de um mini sistema de gestão.
+A aplicação foi desenvolvida como parte do curso da Alura, mas foi **expandida além da proposta original**, incluindo melhorias estruturais, ajustes de usabilidade e personalização visual.
+O projeto também foi versionado com **Git e GitHub desde o início**, simulando um fluxo mais próximo do ambiente profissional.
 
-## Development server
+![Static Badge](https://img.shields.io/badge/Conclu%C3%ADdo-label?style=for-the-badge&label=Status) ![Static Badge](https://img.shields.io/badge/Alura-label?style=for-the-badge&label=Curso&color=%23000080)
 
-To start a local development server, run:
+<hr>
 
-```bash
-ng serve
-```
+## 🚀 Sobre o Projeto
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+Este projeto foi desenvolvido durante o curso da Alura:
 
-## Code scaffolding
+* "Angular: construa uma aplicação web com componentes, linguagem de template e CLI"
+  
+A proposta inicial foi adaptada e expandida, transformando uma listagem de contatos em uma aplicação mais estruturada e próxima de um pequeno sistema de gestão.
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+A aplicação permite:
 
-```bash
-ng generate component component-name
-```
+* Listar clientes a partir de um arquivo JSON
+* Buscar contatos com normalização de acentuação
+* Agrupar automaticamente os contatos por letra inicial
+* Ocultar letras que não possuem contatos associados
+* Exibir informações adicionais como empresa e status
+* Organizar a interface com componentes reutilizáveis
+* Versionar o projeto utilizando Git e GitHub durante o desenvolvimento
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+## 📚 Objetivos do Projeto
 
-```bash
-ng generate --help
-```
+* Aplicar **componentização em Angular**
+* Utilizar a **linguagem de template (@for)** para controle de fluxo
+* Trabalhar com **leitura de dados externos (JSON)**
+* Praticar organização de código com Angular CLI
+* Implementar lógica de busca com normalização de dados
+* Explorar diferenças e similaridades entre **Angular e React**, ampliando visão sobre ecossistemas front-end
 
-## Building
+## 🧩 Funcionalidades
 
-To build the project run:
+* **Listagem dinâmica de contatos**
+* **Busca inteligente com suporte a acentuação**
+* **Agrupamento alfabético automático**
+* **Ocultação de letras sem contatos**
+* Exibição de **empresa e status do cliente**
+* Interface organizada por componentes reutilizáveis
+* Estrutura preparada para expansão futura (como edição ou cadastro de clientes)
 
-```bash
-ng build
-```
+## 🛠️ Tecnologias Utilizadas
 
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
+<p align="left"> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/angularjs/angularjs-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/typescript/typescript-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/html5/html5-original-wordmark.svg" width="80" height="80"/> <img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-original-wordmark.svg" width="80" height="80"/> </p>
 
-## Running unit tests
+**Tecnologias e conceitos aplicados no projeto:**
+* **Angular –** criação de componentes e organização estrutural
+* **TypeScript –** tipagem de dados e definição de interfaces
+* **Angular Template Syntax (@for) –** controle de fluxo e renderização dinâmica
+* **Angular CLI –** geração e organização de componentes
+* **Leitura de JSON –** manipulação de dados externos
+* **Normalização de strings –** tratamento de acentuação para busca inteligente
+* **CSS –** estilização e personalização do layout
+* **Git & GitHub –** versionamento durante todo o desenvolvimento
+  
+## 🖼️ Visualização do Projeto
 
-To execute unit tests with the [Vitest](https://vitest.dev/) test runner, use the following command:
+Uma prévia das principais funcionalidades da aplicação:
 
-```bash
-ng test
-```
+**📋 Listagem de Clientes**
 
-## Running end-to-end tests
+Exibição dinâmica dos contatos organizados por letra inicial, com separadores automáticos e ocultação de letras sem registros.
 
-For end-to-end (e2e) testing, run:
+<img src="/public/clienthub-home.png" alt="Listagem de clientes no ClientHub" width="350"/>
 
-```bash
-ng e2e
-```
+**🔎 Busca Inteligente**
 
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
+Campo de busca com normalização de acentuação, permitindo encontrar contatos independentemente do uso de acentos ou letras maiúsculas/minúsculas.
 
-## Additional Resources
+<img src="/public/clienthub-search.png" alt="Busca inteligente no ClientHub" width="350"/>
 
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
+**🌐 Acesse o Projeto Online**
+
+O projeto está disponível para visualização na Vercel:
+
+<a href="https://clienthub-web.vercel.app/" target="_blank">![Static Badge](https://img.shields.io/badge/Vercel-project?style=for-the-badge&color=A91079)</a>
+
+## 👩‍💻 Sobre a Autora
+
+Desenvolvido por **Natalia Mirian Timote**, desenvolvedora e educadora em tecnologia e programação.
+
+<a href="https://linkedin.com/in/nataliamiriantimote" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/linkedin/linkedin-original.svg" width="40" height="40" /></a>
+<a href="https://github.com/Natalia-Timote" target="_blank"><img src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/github/github-original.svg" width="40" height="40" /></a>
+
+          
+
