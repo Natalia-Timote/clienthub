@@ -17,16 +17,6 @@ Este projeto foi desenvolvido durante o curso da Alura:
   
 A proposta inicial foi adaptada e expandida, transformando uma listagem de contatos em uma aplicação mais estruturada e próxima de um pequeno sistema de gestão.
 
-A aplicação permite:
-
-* Listar clientes a partir de um arquivo JSON
-* Buscar contatos com normalização de acentuação
-* Agrupar automaticamente os contatos por letra inicial
-* Ocultar letras que não possuem contatos associados
-* Exibir informações adicionais como empresa e status
-* Organizar a interface com componentes reutilizáveis
-* Versionar o projeto utilizando Git e GitHub durante o desenvolvimento
-
 ## 📚 Objetivos do Projeto
 
 * Aplicar **componentização em Angular**
